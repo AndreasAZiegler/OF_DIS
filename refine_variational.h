@@ -1,9 +1,11 @@
 #ifndef VARREF_HEADER
 #define VARREF_HEADER
 
+extern "C" {
 #include "FDF1.0.1/image.h"
 #include "FDF1.0.1/opticalflow_aux.h"
 #include "FDF1.0.1/solver.h"
+}
 
 #include "oflow.h"
 
